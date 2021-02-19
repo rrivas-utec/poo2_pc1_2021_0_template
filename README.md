@@ -7,7 +7,7 @@ Practica Calificada # 1 del curso de Programación Orientada a Objetos 2
 - Cada pregunta deberá ser respondida en un archivo cabecera (`.h`)  y/o en un archivo fuente (`.cpp`)
 - SOLO Deberás subir los siguiente archivos directamente a [www.gradescope.com](https://www.gradescope.com) o se puede crear un `.zip` que contenga todos ellos y subirlo :
   - `polynomial.h y polynomial.cpp`
-  - `deviation.h`
+  - `standard_deviation.h`
   - `filter.h`
 
 ## Problema #1 - Polynomial (10 ptos) (clase, punteros y sobrecarga)
