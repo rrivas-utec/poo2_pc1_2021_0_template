@@ -32,7 +32,7 @@ Se solicita implementar las clases **`polynomial`** y  **`term`**  permitan repr
 Desarrollar la función **`standard_deviation`** que contenga parámetros variados de tipo genérico (variadic) y que permita calcular la desviación estándar de todos esos términos utilizando la fórmula:
 
 ![standard deviation](standard_deviation.png)
-
+**Casos de uso**
 ```cpp
 // Ejemplo #1:
 std::cout << standard_deviation (1, 3, 4, 1, 20) << std::endl; // 7.19444 aprox.
