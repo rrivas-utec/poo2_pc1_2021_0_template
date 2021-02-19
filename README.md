@@ -20,7 +20,7 @@ Se solicita implementar las clases **`polynomial`** y  **`term`**  permitan repr
 
 **Casos de uso**
 ```cpp
-    polinomial_t p1 = term{ 1, 0 } + term{ 2, 2 } + term{ 2, 4 };
+    polinomial p1 = term{ 1, 0 } + term{ 2, 2 } + term{ 2, 4 };
     cout << p1 << endl; // 1 + 2x^2 + 2x^4;
     auto p2 = term{ 3, 4 } + term{ 2, 6 } + term{ 2, 5 };
     cout << p2 << endl; // 3x^4 + 2x^6 + 2x^5;
