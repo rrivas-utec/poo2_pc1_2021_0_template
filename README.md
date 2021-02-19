@@ -25,7 +25,7 @@ Se solicita implementar las clases **`polynomial`** y  **`term`**  permitan repr
     auto p2 = term{ 3, 4 } + term{ 2, 6 } + term{ 2, 5 };
     cout << p2 << endl; // 3x^4 + 2x^6 + 2x^5;
     auto p3 = p1 + p2;
-    cout << p2 << endl; // 1 + 2x^2 + 6x^4 + 2x^6 + 2x^5;
+    cout << p2 << endl; // 1 + 2x^2 + 5x^4 + 2x^6 + 2x^5;
 ```
 ## Problema #2 - filter (5 ptos) (template)
 
