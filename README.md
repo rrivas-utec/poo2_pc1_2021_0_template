@@ -21,13 +21,13 @@ Se solicita implementar las clases **`polynomial`** y  **`term`**  permitan repr
 **Casos de uso**
 ```cpp
     polinomial p1 = term{ 1, 0 } + term{ 2, 2 } + term{ 2, 4 };
-    cout << p1 << endl; // 1 + 2x^2 + 2x^4;
+    cout << p1 << endl; // 1 + 2x^2 + 2x^4
     auto p2 = term{ 3, 4 } + term{ 2, 6 } + term{ 2, 5 };
-    cout << p2 << endl; // 3x^4 + 2x^6 + 2x^5;
+    cout << p2 << endl; // 3x^4 + 2x^6 + 2x^5
     auto p3 = p1 + p2;
-    cout << p2 << endl; // 1 + 2x^2 + 5x^4 + 2x^6 + 2x^5;
+    cout << p2 << endl; // 1 + 2x^2 + 5x^4 + 2x^6 + 2x^5
 ```
-## Problema #2 - filter (5 ptos) (template)
+## Problema #2 - desviación estándar (5 ptos) (template)
 
 Desarrollar la función **`standard_deviation`** que contenga parámetros variados de tipo genérico (variadic) y que permita calcular la desviación estándar de todos esos términos utilizando la fórmula:
 
