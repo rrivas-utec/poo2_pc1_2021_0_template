@@ -5,6 +5,11 @@
 #include "global.h"
 #include "filter.h"
 
+// Librerias STL
+#include <vector>
+#include <list>
+#include <forward_list>
+
 using namespace std;
 
 void pregunta_3() {
