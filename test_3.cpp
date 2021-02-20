@@ -2,7 +2,7 @@
 // Created by rudri on 9/12/2020.
 //
 #include "catch.hpp"
-#include "p3.h"
+#include "global.h"
 #include "redirect_io.h"
 using namespace std;
 
