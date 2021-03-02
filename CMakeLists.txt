@@ -8,18 +8,34 @@ if(UNIX AND NOT APPLE)
 endif()
 
 add_executable(poo2_pc1_2021_0
-        main.cpp
-        global.h
-        test_1.cpp
-        test_2.cpp
-        test_3.cpp
-        p1.h p1.cpp
-        p2.h p2.cpp
-        p3.h p3.cpp
-        polynomial.h polynomial.cpp
-        standard_deviation.h
-        filter.h  )
+    main.cpp
+    global.h
+    polynomial.h polynomial.cpp
+    standard_deviation.h
+    filter.h
+    test_1_1.cpp
+    test_1_2.cpp
+    test_1_3.cpp
+    test_1_4.cpp
+    test_2_1.cpp
+    test_2_2.cpp
+    test_2_3.cpp
+    test_2_4.cpp
+    test_3_1.cpp
+    test_3_2.cpp
+    test_3_3.cpp
+    test_3_4.cpp
+  )
 
-configure_file(test_1.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
-configure_file(test_2.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
-configure_file(test_3.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_1_1.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_1_2.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_1_3.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_1_4.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_2_1.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_2_2.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_2_3.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_2_4.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_3_1.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_3_2.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_3_3.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)
+configure_file(test_3_4.in ${CMAKE_RUNTIME_OUTPUT_DIRECTORY} COPYONLY)

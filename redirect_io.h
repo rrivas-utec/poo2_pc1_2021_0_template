@@ -8,6 +8,8 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <algorithm>
+#include <iterator>
 
 using namespace std;
 
@@ -109,10 +111,11 @@ void execute_test(const string& file_name, VoidFunction func) {
             break;
 
         text = {};
+
         while (getline(file, line) && line != "#output")
             text += trim(line) + (!line.empty()?"\n":"");
-        if (text.empty()) continue;
-        input_test.push_back(text);
+
+        if (!text.empty()) input_test.push_back(text);
 
         text = {};
         while (getline(file, line) && line != "#endtest")
@@ -120,7 +123,7 @@ void execute_test(const string& file_name, VoidFunction func) {
         output_test.push_back(text);
 
         rd.redirect();
-        rd << input_test.back();
+        if (!input_test.empty()) rd << input_test.back();
         func();
         text = {};
         while (rd.getline(line))
